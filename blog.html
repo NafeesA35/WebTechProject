@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="http://localhost/WebTechCW/">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="checkEmpty.js" defer></script>
+</head>
+<body>
+
+  <header>
+      <section id="NavBar">
+        <nav>
+          <div class="NavDivA">
+            <a href="main.html">Home</a>
+          </div>
+        </nav>
+      </section>
+  </header>
+
+  <section id="blog-form">
+    <form method="POST" action="https://drusmannaeem.co.uk/process.php">
+
+      <div class="fieldset-div">
+        <fieldset>
+          <legend> Create a Blog Post </legend>
+
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title">
+
+          <label for="content">Content:</label>
+          <textarea id="content" name="content"></textarea>
+
+          <div class="button-style">
+            <button type="submit" class="button-itself">Post</button>
+            <button type="reset" class="button-itself">Clear</button>
+          </div>
+        </fieldset>
+      </div>
+
+    </form>
+  </section>
+
+</body>
+</html>

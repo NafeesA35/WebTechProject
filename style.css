@@ -1,0 +1,1162 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+@media screen {
+  
+
+
+
+/* All the hyperlink*/
+a:link {
+  color: rgb(53, 59, 94);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(24, 36, 63);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(54, 35, 56);
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(31, 30, 32);
+  text-decoration: underline;
+}
+
+/* END */
+
+
+/* START - The page body*/
+body{
+  background-color: #F1F7ED;
+  /* Not used anymore but useful for future reference
+   All about the background image 
+  background-image: url('images/background.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  */
+}
+
+/* END*/
+
+
+/* START - Manage the navigation bar */
+
+#NavBar{
+
+    padding: 1rem;
+    font-size: large;
+    display: flex;
+    background-color: rgba(41, 44, 44, 0.342);
+    justify-content: center;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    
+}
+
+
+/* Means the hyperlinks of nav*/
+.NavDivA{
+    display: flex;
+    gap: 8rem;
+    color: #7CA982;
+}
+
+/* END*/
+
+
+/*START - The introduction paragraph*/
+
+#Introduction{
+    color: #E0EEC6;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:  2rem;
+    font-size: 10rem;
+    text-align: center;
+
+  }
+
+.IntroP2{
+  color: #243E36;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#socials{
+  display: flex;
+  justify-content: center;
+
+  }
+.socials-image{
+  display: inline-block;
+  width: 8rem;
+  height: 8rem;
+  margin: 5rem;
+  justify-content: center;
+  
+}
+
+#socials a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* END */
+
+/* START - login button decor*/
+
+#login-button{
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.button-main{
+  color: rgb(70, 70, 78);
+  border-radius: 0.4rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 4rem;
+  height: 10rem;
+  width: 20rem;
+}
+
+.button-main:hover{
+  color: rgb(0, 0, 0);
+  background-color: #CACFD6;
+}
+
+/*END*/
+
+/*START - The about me section of the page*/
+
+#About-me-container {
+  display: flex;
+  align-items: center; 
+  justify-content: left; 
+  gap: 2rem; 
+  padding: 1rem;
+}
+
+.me-image {
+  width: 40rem; 
+  height: 40rem; 
+  object-fit: cover; 
+  border: 0.3rem solid #243E36; /* border */
+  border-radius: 0.8rem; /*  rounded corners */
+}
+
+.About-me-article {
+  border: 0.3rem solid black;
+  padding: 2rem;
+  background-color: antiquewhite;
+  max-width: 80rem; 
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+
+h1{
+  color: #2f3129;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 10rem;
+  
+}
+
+/* END*/
+
+
+/* START - The experience Section*/
+.experience-container {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  gap: 7em; /* Adds spacing between items */
+  padding: 2rem;
+  justify-content: center;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 10rem;
+
+
+
+}
+
+.experience-article{
+  border: 0.3rem solid rgb(15, 15, 14);
+  padding: 2rem;
+  background-color: #DCDBA8;
+  max-width: 100%; 
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+
+/* END*/
+
+
+/* START - EDUCATION */
+.education-container {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  gap: 5em; /* Adds spacing between items */
+  padding: 2rem;
+  justify-content: center;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.education-article{
+  border: 0.3rem solid rgb(15, 15, 14);
+  padding: 2rem;
+  background-color: #E5F4E3;
+  max-width: 100%; 
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+
+/* END*/
+
+
+/* START - All about forms*/
+.fieldset-div{
+  display: flex;
+  justify-content:center;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10rem;
+
+}
+
+.fieldset-div fieldset{
+  width: 60%;
+  max-width: 80%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 0.15rem solid #000; 
+}
+
+.error-msg{
+  color: #f30707;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10rem;
+
+}
+
+
+
+#email{
+  display: flex;
+  width: 100%;
+  color: black;
+  justify-content: center;
+  height: 2rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+
+#password{
+  display: flex;
+  width: 100%;
+  color: black;
+  justify-content: center;
+  height: 2rem;
+  
+}
+
+.button-style{
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  padding-top: 1rem;
+
+}
+
+
+.button-itself{
+  color: rgb(70, 70, 78);
+  border-radius: 0.4rem;
+
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+.button-itself:hover{
+  color: rgb(0, 0, 0);
+  border-radius: 0.4rem;
+
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/* END - All abot forms*/
+
+
+/* START - All about the skills section*/
+.skills-images{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.skills-images2{
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* END */
+
+
+
+/* START - Experience*/
+#projects-container{
+  max-width: 80rem;
+  margin: auto;
+}
+
+
+
+.project-card-container {
+  display: flex;
+  gap: 5rem; /* Gap between each card*/
+  justify-content: center;
+  flex-wrap: wrap; /* Allows items to wrap to the next line or if you'd like in same "Box" {check developer network for a visual example}*/
+  padding-top: 2.5rem;
+}
+
+
+
+
+.project-card {
+  background-color: #CACFD6;
+  border-radius: 0.8rem;
+  width: 22rem;
+  max-width: 22rem;
+  align-items: center;
+
+}
+
+.project-card:hover {
+  background-color: #796d8f;
+
+}
+
+.project-card img {
+  width: 22rem;
+  height: 22rem;
+}
+
+.project-content {
+  padding: 1rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.project-description {
+  font-size: 0.9rem; /* Takes priority over parent*/
+  font-weight: normal; /* Takes priority over parent*/
+  opacity: 0.8; /* Make it appear lighter than the title*/
+}
+
+/* END*/
+
+
+
+/* START - Blog style */
+
+
+#blog-form textarea {
+  width: 100%;
+  height: 10rem;
+  resize: vertical; /* Allows the textarea to be resized vertically */
+  padding: 0.5rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1rem;
+
+}
+
+#blog-form input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1rem;
+
+}
+
+#blog-form .button-style {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  gap: 5rem;
+
+}
+
+#blog-form .button-itself {
+  color: rgb(70, 70, 78);
+  border-radius: 0.4rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  width: 8rem;
+  height: 3rem;
+}
+
+#blog-form .button-itself:hover {
+  color: rgb(0, 0, 0);
+  border-radius: 0.4rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+
+}
+/* END - Blog form custom styles */
+
+
+
+/*START - Contact me */
+#contact{
+  text-align: center;
+  padding-top: 10rem;
+  gap: 2rem;
+  font-family: "Sigmar", serif;
+  font-weight: 40;
+  font-size: 2rem;
+  align-items: center;
+}
+
+/* END*/
+
+/* START - Blog section PHP */
+
+.blog-body{
+  background-color: #F1F7ED;
+  font-family: "Sigmar", serif;
+  color: #2f3129;
+}
+
+.blog-title{
+  color: #2f3129;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: left;
+  padding-top: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+.blog-content{
+  color: #191918;
+  font-family: "Sigmar", serif;
+  font-size: 1.2rem;
+  padding: 1rem;
+
+}
+
+#logout-button{
+  display: flex;
+  justify-content: center;
+  padding-top: 0.2rem;
+}
+
+#blog-bar{
+    padding: 0.5rem;
+    display: flex;
+    background-color: rgba(41, 44, 44, 0.342);
+    justify-content: right;
+    font-family: "Sigmar", serif;
+    font-size: 1.5rem;
+
+}
+
+#blog-bar-preview{
+  padding: 0.5rem;
+  display: flex;
+  background-color: rgba(41, 44, 44, 0.342);
+  justify-content: center;
+  font-family: "Sigmar", serif;
+  font-size: 1.5rem;
+  gap: 80%;
+
+}
+
+#blog-bar p{
+  padding-right: 25%;
+  padding-top: 0.5rem;
+  
+}
+
+aside{
+  padding-left: 88%;
+  color: rgb(70, 70, 78);
+  font-family: "Sigmar", serif;
+  font-size: 1.2rem;
+
+
+}
+
+
+
+.button-main-logout{
+  color: rgb(70, 70, 78);
+  border-radius: 0.4rem;
+  font-family: "Sigmar", serif;
+  font-size: 2rem;
+  height: 4rem;
+  width: 8rem;
+}
+
+.button-main-logout:hover{
+  color: rgb(0, 0, 0);
+  background-color: #CACFD6;
+}
+
+#dropDown{
+  font-size: 1rem;
+  font-family: "Sigmar", serif;
+  color: #2f3129;
+  padding-left: 0.5rem;
+
+}
+
+select{
+  font-size: 1rem;
+  font-family: "Sigmar", serif;
+  color: #2f3129;
+}
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+  /* Styles for mobile devices */
+/* All the hyperlink*/
+a:link {
+  color: rgb(53, 59, 94);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(24, 36, 63);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(54, 35, 56);
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(31, 30, 32);
+  text-decoration: underline;
+}
+
+/* END */
+
+
+/* START - The page body*/
+body{
+  background-color: #F1F7ED;
+  /* Not used anymore but useful for future reference
+   All about the background image 
+  background-image: url('images/background.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  */
+}
+
+/* END*/
+
+
+/* START - Manage the navigation bar */
+
+#NavBar{
+
+    padding: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    background-color: rgba(41, 44, 44, 0.342);
+    justify-content: center;
+    font-family: "Sigmar", serif;
+    
+}
+
+
+/* Means the hyperlinks of nav*/
+.NavDivA{
+    display: flex;
+    gap: 1rem;
+    color: #7CA982;
+}
+
+/* END*/
+
+
+/*START - The introduction paragraph*/
+
+#Introduction{
+    color: #E0EEC6;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:  1rem;
+    font-size: 3rem;
+    text-align: center;
+
+  }
+
+.IntroP2{
+  color: #243E36;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#socials{
+  display: flex;
+  justify-content: center;
+
+  }
+.socials-image{
+
+  width: 6rem;
+  height: 6rem;
+
+  
+}
+
+#socials a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* END */
+
+/* START - login button decor*/
+
+#login-button{
+  display: flex;
+  justify-content: center;
+  padding-top: 8em;
+  padding-bottom: 8rem;
+}
+
+.button-main{
+  color: rgb(70, 70, 78);
+  border-radius: 0.4rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 4rem;
+  height: 10rem;
+  width: 20rem;
+}
+
+.button-main:hover{
+  color: rgb(0, 0, 0);
+  background-color: #CACFD6;
+}
+
+/*END*/
+
+
+/*START - The about me section of the page*/
+
+#About-me-container {
+  display: flex;
+  align-items: center; 
+  justify-content: left; 
+  gap: 1rem; 
+  padding: 1rem;
+}
+
+.me-image {
+  width: 20rem; 
+  height: 20rem; 
+  object-fit: cover; 
+  border: 0.3rem solid #243E36; /* border */
+  border-radius: 0.8rem; /*  rounded corners */
+}
+
+.About-me-article {
+  border: 0.3rem solid black;
+  padding: 2rem;
+  background-color: antiquewhite;
+  max-width: 50rem; 
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+
+h1{
+  color: #2f3129;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 4rem;
+  
+}
+
+/* END*/
+
+
+/* START - The experience Section*/
+.experience-container {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  gap: 7em; /* Adds spacing between items */
+  padding: 2rem;
+  justify-content: center;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 10rem;
+
+
+
+}
+
+.experience-article{
+  border: 0.3rem solid rgb(15, 15, 14);
+  padding: 2rem;
+  background-color: #DCDBA8;
+  max-width: 100%; 
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+
+/* END*/
+
+
+/* START - EDUCATION */
+.education-container {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  gap: 5em; /* Adds spacing between items */
+  padding: 2rem;
+  justify-content: center;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.education-article{
+  border: 0.3rem solid rgb(15, 15, 14);
+  padding: 2rem;
+  background-color: #E5F4E3;
+  max-width: 100%; 
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+
+/* END*/
+
+
+/* START - All about forms*/
+.fieldset-div{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 10rem;
+
+
+}
+
+.fieldset-div fieldset{
+  width: 60%;
+  max-width: 80%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 0.15rem solid #000; 
+}
+
+.error-msg{
+  color: #f30707;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9rem;
+  text-align: center;
+  padding-top: 4rem;
+
+}
+
+
+
+#email{
+  display: flex;
+  width: 100%;
+  color: black;
+  justify-content: center;
+  height: 2rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+
+#password{
+  display: flex;
+  width: 100%;
+  color: black;
+  justify-content: center;
+  height: 2rem;
+  
+}
+
+.button-style{
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  padding-top: 1rem;
+
+}
+
+
+.button-itself{
+  color: rgb(70, 70, 78);
+  border-radius: 0.4rem;
+
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+.button-itself:hover{
+  color: rgb(0, 0, 0);
+  border-radius: 0.4rem;
+
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/* END - All abot forms*/
+
+
+/* START - All about the skills section*/
+.skills-images{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.skills-images2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+
+  
+}
+
+/* END */
+
+
+
+/* START - Experience*/
+#projects-container{
+  width: 95%;
+  max-width: 50rem;
+  margin: auto;
+}
+
+
+
+.project-card-container {
+  display: flex;
+  gap: 1rem; /* Gap between each card*/
+  justify-content: center;
+  flex-wrap: wrap; /* Allows items to wrap to the next line or if you'd like in same "Box" {check developer network for a visual example}*/
+  padding-top: 2.5rem;
+}
+
+
+
+
+.project-card {
+  background-color: #CACFD6;
+  border-radius: 0.8rem;
+  width: 14rem;
+  max-width: 14rem;
+  align-items: center;
+
+}
+
+.project-card:hover {
+  background-color: #796d8f;
+
+}
+
+.project-card img {
+  width: 14rem;
+  height: 14rem;
+}
+
+.project-content {
+  padding: 1rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.project-description {
+  font-size: 0.9rem; /* Takes priority over parent*/
+  font-weight: normal; /* Takes priority over parent*/
+  opacity: 0.8; /* Make it appear lighter than the title*/
+}
+
+/* END*/
+
+
+
+/* START - Blog style */
+
+
+#blog-form textarea {
+  width: 100%;
+  height: 3rem;
+  resize: vertical; /* Allows the textarea to be resized vertically */
+  padding: 0.5rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#blog-form input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#blog-form .button-style {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+}
+
+#blog-form .button-itself {
+  color: rgb(70, 70, 78);
+  border-radius: 0.4rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  width: 4rem;
+  height: 2rem;
+  padding: 0.2rem 0.5rem;
+}
+
+#blog-form .button-itself:hover {
+  color: rgb(0, 0, 0);
+  border-radius: 0.4rem;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+
+}
+
+.error-handler{
+  border: 0.2rem solid #f30707;
+
+}
+/* END - Blog form custom styles */
+
+
+
+/*START - Contact me */
+#contact{
+  text-align: center;
+  padding-top: 10rem;
+  gap: 2rem;
+  font-family: "Sigmar", serif;
+  font-weight: 40;
+  font-size: 2rem;
+  align-items: center;
+}
+
+/* END*/
+
+/* START - Blog section PHP */
+
+.blog-body{
+  background-color: #F1F7ED;
+  font-family: "Sigmar", serif;
+  color: #2f3129;
+}
+
+.blog-title{
+  color: #2f3129;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: left;
+  padding-top: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+
+}
+
+.blog-content{
+  color: #191918;
+  font-family: "Sigmar", serif;
+  font-size: 0.8rem;
+  padding: 1rem;
+  padding-right: 5%;
+
+}
+
+#logout-button{
+  display: flex;
+  justify-content: center;
+  padding-top: 0.2rem;
+}
+
+#blog-bar{
+    padding: 0.5rem;
+    display: flex;
+    background-color: rgba(41, 44, 44, 0.342);
+    justify-content: right;
+    font-family: "Sigmar", serif;
+    font-size: 1rem;
+}
+
+#blog-bar-preview{
+  background-color: rgba(41, 44, 44, 0.342);
+  font-family: "Sigmar", serif;
+  font-size: 1rem;
+  gap: 60%;
+}
+
+#blog-bar p{
+  padding-right: 15%;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  
+}
+
+aside{
+  display: flex;
+  justify-content: right;
+  padding-right: 1.5rem;
+  color: rgb(70, 70, 78);
+  font-family: "Sigmar", serif;
+  font-weight: bold;
+  font-size: 0.7rem;
+
+}
+
+
+
+
+
+.button-main-logout{
+  color: rgb(70, 70, 78);
+  border-radius: 0.4rem;
+  font-family: "Sigmar", serif;
+  font-size: 0.5rem;
+  height: 2rem;
+  width: 3rem;
+}
+
+.button-main-logout:hover{
+  color: rgb(0, 0, 0);
+  background-color: #CACFD6;
+}
+
+#dropDown{
+  font-size: 1rem;
+  font-family: "Sigmar", serif;
+  color: #2f3129;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+select{
+  font-size: 1rem;
+  font-family: "Sigmar", serif;
+  color: #2f3129;
+  
+}
+
+}
